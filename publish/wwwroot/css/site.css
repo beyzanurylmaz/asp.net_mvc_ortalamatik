@@ -1,0 +1,70 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.ort{
+  padding: 20px;
+  border-bottom: 2.5px solid orange; /* Alt çizgi */
+  border-top: 2.5px solid orange; /* Üst çizgi */
+}
+
+.content{
+  background-color: rgb(255, 236, 200);
+}
+
+.lessonName{
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.form-select{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.lessonNote{
+  border-radius: 10px;
+}
+.footer-bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-bg{
+  background-color: rgb(255, 236, 200);
+}
+
+.btn{
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  background-color: rgb(245, 191, 92);
+  color: black;
+  font-size: 25px;
+}
